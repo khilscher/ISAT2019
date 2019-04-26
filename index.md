@@ -37,7 +37,7 @@ Please install the following prior to participating.
 1. Install .NET Core
     * Open a browser and navigate to [.NET Downloads](https://dotnet.microsoft.com/download).
     * Select the **Windows** tab and click **Download .NET Core SDK**
-    **Note**: We are using .NET Core **not** .NET Framework.
+      * **Note**: We are using .NET Core **not** .NET Framework.
     Once the download has completed, continue.
     * Launch the downloaded Microsoft .NET Core installer and click **Install**.
     When the **User Access Control** prompt is displayed, click **Yes**.
