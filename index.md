@@ -53,4 +53,4 @@ Please install the following prior to participating.
 
     C:\>
     ```
-    
+1. Reboot
