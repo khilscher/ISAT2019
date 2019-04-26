@@ -28,13 +28,13 @@ Our hands-on technical training will consist of three options. Pick one.
 Please install the following prior to participating in any of the above.
 
 1. Install [VSCode](https://code.visualstudio.com/) and the following Microsoft extensions:
-  * Azure IoT Device Workbench
-  * Azure IoT Edge
-  * Azure IoT Hub Toolkit
-  * Azure IoT Tools
-  * C#
-  * Docker - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
-  * .NET Core
+    * Azure IoT Device Workbench
+    * Azure IoT Edge
+    * Azure IoT Hub Toolkit
+    * Azure IoT Tools
+    * C#
+    * Docker - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
+    * .NET Core
 2. Open a browser and navigate to [.NET Downloads](https://dotnet.microsoft.com/download).
 3. Select the **Windows** tab and click **Download .NET Core SDK**
     **Note**: We are using .NET Core **not** .NET Framework.
