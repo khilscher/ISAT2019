@@ -35,14 +35,14 @@ Please install the following prior to participating.
     * C#
 1. Install Docker - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
 1. Install .NET Core
-    1. Open a browser and navigate to [.NET Downloads](https://dotnet.microsoft.com/download).
-    1. Select the **Windows** tab and click **Download .NET Core SDK**
+    * Open a browser and navigate to [.NET Downloads](https://dotnet.microsoft.com/download).
+    * Select the **Windows** tab and click **Download .NET Core SDK**
     **Note**: We are using .NET Core **not** .NET Framework.
     Once the download has completed, continue.
-    1. Launch the downloaded Microsoft .NET Core installer and click **Install**.
+    * Launch the downloaded Microsoft .NET Core installer and click **Install**.
     When the **User Access Control** prompt is displayed, click **Yes**.
-    1. Once the installation has completed, click **Close**.
-    1. Open a **Command prompt** and enter the following command:
+    * Once the installation has completed, click **Close**.
+    * Open a **Command prompt** and enter the following command:
     ```script
     dotnet --version
     ```
