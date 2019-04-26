@@ -1,4 +1,5 @@
-## Welcome to CDS ISA Training (June 2019)
+# Welcome to CDS ISA Training (June 2019)
+## https://aka.ms/isat2019
 
 Our hands-on technical training will consist of three options. Pick one.
 
