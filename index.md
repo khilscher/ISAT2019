@@ -18,7 +18,7 @@ Our hands-on technical training will consist of three options. Pick one.
 
 3. A **Level 400** IoT Edge module development challenge.  
  The challenge will involve writing a custom module from scratch in Python or C# to ingest IoT data from a live endpoint.
-    * There is no instructor. No details instructions, similar to real life.
+    * There is no instructor. No detailed instructions. 
     * You will be provided the challenge details on the day of.
     * You will have three (3) hours to complete the challenge.
     * The first to complete the challenge will receive the inaugural (and coveted) CDS IoT Dev Champ trophy
