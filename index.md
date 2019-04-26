@@ -50,7 +50,5 @@ Please install the following prior to participating.
     ```script
     C:\>dotnet --version
     2.2.100
-
-    C:\>
     ```
 1. Reboot
