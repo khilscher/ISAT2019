@@ -25,7 +25,7 @@ Our hands-on technical training will consist of three options. Pick one.
 
 ## Prerequisites
 
-Please install the following prior to participating in any of the above.
+Please install the following prior to participating.
 
 1. Install [VSCode](https://code.visualstudio.com/) and the following Microsoft extensions:
     * Azure IoT Device Workbench
@@ -48,7 +48,7 @@ Please install the following prior to participating in any of the above.
     dotnet --version
     ```
 
-    You should see a response similar to:
+      You should see a response similar to:
 
     ```script
     C:\>dotnet --version
