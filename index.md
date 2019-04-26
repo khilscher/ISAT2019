@@ -46,7 +46,7 @@ Please install the following prior to participating.
     ```script
     dotnet --version
     ```
-    1. You should see a response similar to:
+    You should see a response similar to:
     ```script
     C:\>dotnet --version
     2.2.100
