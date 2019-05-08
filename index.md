@@ -36,7 +36,9 @@ Please install the following prior to participating.
     * Azure IoT Hub Toolkit
     * Azure IoT Tools
     * C#
-1. Install Docker - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
+    * Python
+1. Install Python 3.7 + PIP and add to PATH
+1. Install Docker Desktop - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
 1. Install .NET Core
     * Open a browser and navigate to [.NET Downloads](https://dotnet.microsoft.com/download).
     * Select the **Windows** tab and click **Download .NET Core SDK**
