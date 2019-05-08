@@ -37,7 +37,9 @@ Please install the following prior to participating.
     * Azure IoT Tools
     * C#
     * Python
-1. Install Python 3.7 + PIP and add to PATH
+1. Install [Python 3.7](https://www.python.org/downloads/), 
+    * Ensure PIP is also [installed](https://www.liquidweb.com/kb/install-pip-windows/) (normally it is installed with Python) 
+    * Ensure Python is a part of your [PATH](https://geek-university.com/python/add-python-to-the-windows-path/) system variable.
 1. Install Docker Desktop - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
 1. Install .NET Core
     * Open a browser and navigate to [.NET Downloads](https://dotnet.microsoft.com/download).
