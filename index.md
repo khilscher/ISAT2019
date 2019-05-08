@@ -12,7 +12,7 @@ Our hands-on technical training will consist of three session options. Pick one.
     * Module 5 - Deploy Azure Stream Analytics on Edge
     * Module 6 - Deploy Azure Function on Edge
  
-2. A **Level 300** instructor-led live IoT Edge module coding workshop **for experienced developers only**.
+2. A **Level 300** instructor-led live IoT Edge module coding workshop **for experienced developers only**.  
  This session is for those of you who wish to develop a custom IoT Edge module in Python.
     * How do you know if you are an experience developer? Have you written more than 200 lines of code in the last 2 years? If not, this is not for you, see Level 200. This session will move at a fast pace with assumed understanding of development concepts. 
     * You will develop the module alongside the instructor in a live-coding session. 
@@ -37,7 +37,7 @@ Please install the following prior to participating.
     * Azure IoT Tools
     * C#
     * Python
-1. Install [Python 3.7](https://www.python.org/downloads/), 
+1. Install [Python 3.7](https://www.python.org/downloads/)
     * Ensure PIP is also [installed](https://www.liquidweb.com/kb/install-pip-windows/) (normally it is installed with Python) 
     * Ensure Python is a part of your [PATH](https://geek-university.com/python/add-python-to-the-windows-path/) system variable.
 1. Install Docker Desktop - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
