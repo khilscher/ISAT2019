@@ -22,8 +22,9 @@ Our hands-on technical training will consist of three session options. Pick one.
 3. Conf Room 31/36 (20) - A **Level 400** IoT Edge module development challenge.  
  This challenge will involve writing a custom IoT Edge module from scratch in Python or C# to ingest IoT data from a live endpoint.
     * Self-directed, not instructor-led.
-    * You will be provided the challenge details on the day of.
+    * You will be provided the challenge details **here** the morning of the challenge.
     * You can run IoT Edge on a physical device (e.g. Raspberry Pi) or as a software gateway on a VM or your laptop.
+      * Ensure your IoT Edge device is setup and configured ahead of time.
     * You will complete the challenge yourself; no partners.
     * You will have three (3) hours to complete the challenge.
     * The first to complete the challenge will receive the inaugural (and coveted) CDS IoT Dev Champ trophy
@@ -61,4 +62,3 @@ Please install the following prior to participating.
     2.2.100
     ```
 1. Reboot
-1. If using a physical device to run IoT Edge (e.g. Raspberry Pi), install Raspian and configure the device ahead of time.
