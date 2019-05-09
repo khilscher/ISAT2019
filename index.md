@@ -3,7 +3,7 @@
 
 Our hands-on technical training will consist of three session options. Pick one.
 
-1. A **Level 200** [IoT Edge hands-on lab](https://github.com/rangv/azureiotedgelab) written by Ranga V.  
+1. Conf Room 31/36 (20) - A **Level 200** [IoT Edge hands-on lab](https://github.com/rangv/azureiotedgelab) written by Ranga V.  
  This step-by-step hands-on lab session is aimed at those of you who want to familiarize yourselves with:
     * Module 1 - Learn About IoT Edge Pattern
     * Module 2 - Create IoT HuB using VSCode
@@ -11,18 +11,19 @@ Our hands-on technical training will consist of three session options. Pick one.
     * Module 4 - Add an Edge Module and Deploy
     * Module 5 - Deploy Azure Stream Analytics on Edge
     * Module 6 - Deploy Azure Function on Edge
- 
-2. A **Level 300** instructor-led live IoT Edge module coding workshop **for experienced developers only**.  
+
+2. Conf Room 32/32 (12) - A **Level 300** instructor-led live IoT Edge module coding workshop **for experienced developers only**.  
  This session is for those of you who wish to develop a custom IoT Edge module in Python.
-    * How do you know if you are an experience developer? Have you written more than 200 lines of code in the last 2 years? If not, this is not for you, see Level 200. 
-    * This session will move at a fast pace with assumed understanding of development concepts. 
-    * You will develop the module alongside the instructor in a live-coding session. 
+    * How do you know if you are an experience developer? Have you written more than 200 lines of code in the last 2 years? If not, this is not for you, see Level 200.
+    * This session will move at a fast pace with assumed understanding of development concepts.
+    * You will develop the module alongside the instructor in a live-coding session.
     * Familiarity with Python is strongly recommended. This is **NOT** an intro to Python.
 
-3. A **Level 400** IoT Edge module development challenge.  
- This challenge will involve writing a custom module from scratch in Python or C# to ingest IoT data from a live endpoint.
+3. Conf Room 31/36 (20) - A **Level 400** IoT Edge module development challenge.  
+ This challenge will involve writing a custom IoT Edge module from scratch in Python or C# to ingest IoT data from a live endpoint.
     * Self-directed, not instructor-led.
     * You will be provided the challenge details on the day of.
+    * You can run IoT Edge on a physical device (e.g. Raspberry Pi) or as a software gateway on a VM or your laptop.
     * You will complete the challenge yourself; no partners.
     * You will have three (3) hours to complete the challenge.
     * The first to complete the challenge will receive the inaugural (and coveted) CDS IoT Dev Champ trophy
@@ -60,3 +61,4 @@ Please install the following prior to participating.
     2.2.100
     ```
 1. Reboot
+1. If using a physical device to run IoT Edge (e.g. Raspberry Pi), install Raspian and configure the device ahead of time.
