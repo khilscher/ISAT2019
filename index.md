@@ -12,14 +12,16 @@ Our hands-on technical training will consist of three session options. Pick one.
     * Module 5 - Deploy Azure Stream Analytics on Edge
     * Module 6 - Deploy Azure Function on Edge
  
-2. A **Level 300** instructor-led live IoT Edge module coding workshop.  
- This session is for those of you who wish to develop a custom IoT Edge module in C#.
+2. A **Level 300** instructor-led live IoT Edge module coding workshop **for experienced developers only**.  
+ This session is for those of you who wish to develop a custom IoT Edge module in Python.
+    * How do you know if you are an experience developer? Have you written more than 200 lines of code in the last 2 years? If not, this is not for you, see Level 200. 
+    * This session will move at a fast pace with assumed understanding of development concepts. 
     * You will develop the module alongside the instructor in a live-coding session. 
-    * Some familiarity with C# is strongly recommended. This is NOT an intro to C#.
+    * Familiarity with Python is strongly recommended. This is **NOT** an intro to Python.
 
 3. A **Level 400** IoT Edge module development challenge.  
  This challenge will involve writing a custom module from scratch in Python or C# to ingest IoT data from a live endpoint.
-    * There is no instructor. No detailed instructions. No help.
+    * Self-directed, not instructor-led.
     * You will be provided the challenge details on the day of.
     * You will complete the challenge yourself; no partners.
     * You will have three (3) hours to complete the challenge.
@@ -35,7 +37,11 @@ Please install the following prior to participating.
     * Azure IoT Hub Toolkit
     * Azure IoT Tools
     * C#
-1. Install Docker - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
+    * Python
+1. Install [Python 3.7](https://www.python.org/downloads/)
+    * Ensure PIP is also [installed](https://www.liquidweb.com/kb/install-pip-windows/) (normally it is installed with Python) 
+    * Ensure Python is a part of your [PATH](https://geek-university.com/python/add-python-to-the-windows-path/) system variable.
+1. Install Docker Desktop - Go To [Docker](https://docs.docker.com/install/) to Install Docker for Windows or Mac. 
 1. Install .NET Core
     * Open a browser and navigate to [.NET Downloads](https://dotnet.microsoft.com/download).
     * Select the **Windows** tab and click **Download .NET Core SDK**
