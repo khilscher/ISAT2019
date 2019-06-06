@@ -20,38 +20,47 @@ namespace ISAT2019
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
-            log.LogInformation("CheckEngineLight function processed a request.");
+
+            string name = req.Query["name"];
 
             if (req.Method == HttpMethods.Post)
             {
-                log.LogInformation("CheckEngineLight function received an HTTP POST request.");
-
                 try
                 {
 
                     string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
 
+                    VehicleCheckEngineLight checkLightEnabled = new VehicleCheckEngineLight();
+
+                    VehicleCheckEngineLight data = JsonConvert.DeserializeObject<VehicleCheckEngineLight>(requestBody);
+
+                    checkEngineLightEnabled = data.CheckEngineLight;
+
+                    /*
                     dynamic data = JsonConvert.DeserializeObject(requestBody);
 
-                    checkEngineLightEnabled = data.CheckEngineLightReset;
+                    checkEngineLightEnabled = data.checkEngineLight;
+                    */
 
                     var jsonResult = new
                     {
                         CheckEngineLight = checkEngineLightEnabled
                     };
 
+                    log.LogInformation($"CheckEngineLight successfully reset by: {name}.");
+
                     return new OkObjectResult(jsonResult);
 
                 }
-                catch
+                catch (Exception e)
                 {
-                    log.LogInformation("CheckEngineLight function received an invalid payload.");
+                    log.LogInformation($"CheckEngineLight function encountered an exception: {e.Message}");
                 }
 
             }
             else if (req.Method == HttpMethods.Get)
             {
-                log.LogInformation("CheckEngineLight function received an HTTP GET request.");
+                log.LogInformation($"CheckEngineLight function successfully requested by: {name}.");
 
                 var jsonResult = new
                 {
@@ -66,6 +75,11 @@ namespace ISAT2019
             return new BadRequestResult();
 
         }
+    }
+
+    public class VehicleCheckEngineLight
+    {
+        public bool CheckEngineLight { get; set; }
     }
 
 }
