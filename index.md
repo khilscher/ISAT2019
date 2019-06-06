@@ -22,7 +22,7 @@ Our hands-on technical training will consist of three session options. Pick one.
 3. Conf Room 31/36 (20) - A **Level 400** IoT Edge module development challenge.  
  This challenge will involve writing a custom IoT Edge module from scratch in Python or C# to ingest IoT data from a live endpoint.
     * Self-directed, not instructor-led.
-    * You will be provided the challenge details **here** the morning of the challenge.
+    * You will be provided the challenge details [here](./l400.md) the morning of the challenge.
     * You can run IoT Edge on a physical device (e.g. Raspberry Pi) or as a software gateway on a VM or your laptop.
       * Ensure your IoT Edge device is setup and configured ahead of time.
     * You will complete the challenge yourself; no partners.
